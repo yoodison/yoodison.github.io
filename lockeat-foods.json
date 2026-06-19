@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "mealPriceByCurrency": {
     "KRW": 15000, "USD": 15, "JPY": 1500, "EUR": 13, "GBP": 12, "CNY": 60,
     "TWD": 250, "HKD": 110, "SGD": 18, "AUD": 22, "CAD": 20, "INR": 400, "THB": 200
@@ -67,6 +67,70 @@
         {"kcal": 100, "c": 27, "p": 1, "f": 0, "ko": "バナナ1本", "en": "A banana"},
         {"kcal": 200, "c": 22, "p": 14, "f": 6, "ko": "ヨーグルト", "en": "Yogurt"},
         {"kcal": 160, "c": 12, "p": 24, "f": 2, "ko": "プロテイン", "en": "Protein shake"}
+      ]
+    },
+    "CN": {
+      "analogy": [
+        {"kcal": 500, "ko": "훠궈", "en": "Hotpot", "unitKo": "인분", "unitEn": " servings"},
+        {"kcal": 450, "ko": "마라탕", "en": "Malatang", "unitKo": "그릇", "unitEn": " bowls"},
+        {"kcal": 350, "ko": "볶음밥", "en": "Fried rice", "unitKo": "그릇", "unitEn": " bowls"},
+        {"kcal": 300, "ko": "만두", "en": "Dumplings", "unitKo": "접시", "unitEn": " plates"},
+        {"kcal": 400, "ko": "꿔바로우", "en": "Sweet & sour pork", "unitKo": "접시", "unitEn": " plates"},
+        {"kcal": 250, "ko": "양꼬치", "en": "Lamb skewers", "unitKo": "꼬치", "unitEn": " skewers"}
+      ],
+      "exercises": [
+        {"perMin": 11, "ko": "달리기", "en": "Running"},
+        {"perMin": 12, "ko": "줄넘기", "en": "Jump rope"},
+        {"perMin": 9, "ko": "계단 오르기", "en": "Stairs"},
+        {"perMin": 8, "ko": "자전거", "en": "Cycling"}
+      ],
+      "diet": [
+        {"kcal": 320, "c": 16, "p": 34, "f": 13, "ko": "닭가슴살 샐러드", "en": "Chicken breast salad"},
+        {"kcal": 300, "c": 20, "p": 24, "f": 12, "ko": "청찐 생선", "en": "Steamed fish"},
+        {"kcal": 280, "c": 30, "p": 18, "f": 9, "ko": "두부탕", "en": "Tofu soup"},
+        {"kcal": 250, "c": 28, "p": 12, "f": 8, "ko": "채소 볶음", "en": "Stir-fried vegetables"},
+        {"kcal": 200, "c": 12, "p": 14, "f": 8, "ko": "토마토 계란탕", "en": "Tomato & egg soup"},
+        {"kcal": 220, "c": 40, "p": 6, "f": 3, "ko": "좁쌀죽", "en": "Millet porridge"}
+      ],
+      "night": [
+        {"kcal": 90, "c": 8, "p": 6, "f": 3, "ko": "토마토 계란탕", "en": "Tomato & egg soup"},
+        {"kcal": 150, "c": 1, "p": 13, "f": 10, "ko": "삶은 계란", "en": "Boiled eggs"},
+        {"kcal": 100, "c": 12, "p": 7, "f": 4, "ko": "두유", "en": "Soy milk"},
+        {"kcal": 100, "c": 27, "p": 1, "f": 0, "ko": "바나나", "en": "A banana"},
+        {"kcal": 160, "c": 6, "p": 16, "f": 9, "ko": "두부", "en": "Tofu"},
+        {"kcal": 220, "c": 40, "p": 6, "f": 3, "ko": "좁쌀죽", "en": "Millet porridge"}
+      ]
+    },
+    "EU": {
+      "analogy": [
+        {"kcal": 285, "ko": "피자", "en": "Pizza", "unitKo": "조각", "unitEn": " slices"},
+        {"kcal": 500, "ko": "케밥", "en": "Kebab", "unitKo": "개", "unitEn": ""},
+        {"kcal": 400, "ko": "파스타", "en": "Pasta", "unitKo": "접시", "unitEn": " plates"},
+        {"kcal": 300, "ko": "버거", "en": "Burger", "unitKo": "개", "unitEn": ""},
+        {"kcal": 365, "ko": "감자튀김", "en": "Fries", "unitKo": "봉지", "unitEn": " orders"},
+        {"kcal": 230, "ko": "크루아상", "en": "Croissant", "unitKo": "개", "unitEn": ""}
+      ],
+      "exercises": [
+        {"perMin": 11, "ko": "달리기", "en": "Running"},
+        {"perMin": 12, "ko": "줄넘기", "en": "Jump rope"},
+        {"perMin": 9, "ko": "계단 오르기", "en": "Stairs"},
+        {"perMin": 8, "ko": "자전거", "en": "Cycling"}
+      ],
+      "diet": [
+        {"kcal": 320, "c": 18, "p": 12, "f": 24, "ko": "그릭 샐러드", "en": "Greek salad"},
+        {"kcal": 300, "c": 12, "p": 16, "f": 20, "ko": "카프레제 샐러드", "en": "Caprese salad"},
+        {"kcal": 420, "c": 10, "p": 34, "f": 26, "ko": "연어구이", "en": "Grilled salmon"},
+        {"kcal": 350, "c": 40, "p": 14, "f": 16, "ko": "후무스 플레이트", "en": "Hummus plate"},
+        {"kcal": 280, "c": 38, "p": 16, "f": 6, "ko": "렌틸 수프", "en": "Lentil soup"},
+        {"kcal": 300, "c": 34, "p": 18, "f": 9, "ko": "그릭요거트 볼", "en": "Greek yogurt bowl"}
+      ],
+      "night": [
+        {"kcal": 200, "c": 22, "p": 14, "f": 6, "ko": "그릭요거트", "en": "Greek yogurt"},
+        {"kcal": 150, "c": 1, "p": 13, "f": 10, "ko": "삶은 계란", "en": "Boiled eggs"},
+        {"kcal": 120, "c": 4, "p": 14, "f": 5, "ko": "코티지 치즈", "en": "Cottage cheese"},
+        {"kcal": 100, "c": 27, "p": 1, "f": 0, "ko": "바나나", "en": "A banana"},
+        {"kcal": 150, "c": 2, "p": 1, "f": 15, "ko": "올리브와 치즈", "en": "Olives & cheese"},
+        {"kcal": 130, "c": 14, "p": 5, "f": 5, "ko": "방울토마토", "en": "Cherry tomatoes"}
       ]
     },
     "default": {
