@@ -1,8 +1,10 @@
 {
-  "version": 2,
+  "version": 3,
   "mealPriceByCurrency": {
     "KRW": 15000, "USD": 15, "JPY": 1500, "EUR": 13, "GBP": 12, "CNY": 60,
-    "TWD": 250, "HKD": 110, "SGD": 18, "AUD": 22, "CAD": 20, "INR": 400, "THB": 200
+    "TWD": 250, "HKD": 110, "SGD": 18, "AUD": 22, "CAD": 20, "INR": 400, "THB": 200,
+    "VND": 80000, "IDR": 50000, "PHP": 250, "MYR": 18,
+    "BRL": 40, "MXN": 180, "ARS": 6000, "COP": 30000, "PEN": 30, "CLP": 8000
   },
   "foodsByRegion": {
     "KR": {
@@ -131,6 +133,70 @@
         {"kcal": 100, "c": 27, "p": 1, "f": 0, "ko": "바나나", "en": "A banana"},
         {"kcal": 150, "c": 2, "p": 1, "f": 15, "ko": "올리브와 치즈", "en": "Olives & cheese"},
         {"kcal": 130, "c": 14, "p": 5, "f": 5, "ko": "방울토마토", "en": "Cherry tomatoes"}
+      ]
+    },
+    "SEA": {
+      "analogy": [
+        {"kcal": 500, "ko": "팟타이", "en": "Pad thai", "unitKo": "접시", "unitEn": " plates"},
+        {"kcal": 400, "ko": "쌀국수", "en": "Pho", "unitKo": "그릇", "unitEn": " bowls"},
+        {"kcal": 450, "ko": "나시고렝", "en": "Nasi goreng", "unitKo": "접시", "unitEn": " plates"},
+        {"kcal": 250, "ko": "사테", "en": "Satay", "unitKo": "꼬치", "unitEn": " skewers"},
+        {"kcal": 450, "ko": "분짜", "en": "Bun cha", "unitKo": "그릇", "unitEn": " bowls"},
+        {"kcal": 300, "ko": "치킨라이스", "en": "Chicken rice", "unitKo": "접시", "unitEn": " plates"}
+      ],
+      "exercises": [
+        {"perMin": 11, "ko": "달리기", "en": "Running"},
+        {"perMin": 12, "ko": "줄넘기", "en": "Jump rope"},
+        {"perMin": 9, "ko": "계단 오르기", "en": "Stairs"},
+        {"perMin": 8, "ko": "자전거", "en": "Cycling"}
+      ],
+      "diet": [
+        {"kcal": 350, "c": 46, "p": 18, "f": 8, "ko": "월남쌈", "en": "Fresh spring rolls"},
+        {"kcal": 400, "c": 50, "p": 28, "f": 8, "ko": "닭고기 쌀국수", "en": "Chicken pho"},
+        {"kcal": 200, "c": 24, "p": 6, "f": 8, "ko": "쏨땀(파파야 샐러드)", "en": "Som tam (papaya salad)"},
+        {"kcal": 300, "c": 26, "p": 16, "f": 14, "ko": "가도가도", "en": "Gado-gado"},
+        {"kcal": 320, "c": 16, "p": 34, "f": 13, "ko": "닭가슴살 샐러드", "en": "Chicken breast salad"},
+        {"kcal": 250, "c": 30, "p": 6, "f": 11, "ko": "코코넛 치아 푸딩", "en": "Coconut chia pudding"}
+      ],
+      "night": [
+        {"kcal": 90, "c": 8, "p": 6, "f": 3, "ko": "쌀국수 국물", "en": "Pho broth"},
+        {"kcal": 150, "c": 1, "p": 13, "f": 10, "ko": "삶은 계란", "en": "Boiled eggs"},
+        {"kcal": 100, "c": 12, "p": 7, "f": 4, "ko": "두유", "en": "Soy milk"},
+        {"kcal": 100, "c": 27, "p": 1, "f": 0, "ko": "바나나", "en": "A banana"},
+        {"kcal": 120, "c": 24, "p": 6, "f": 8, "ko": "파파야 샐러드", "en": "Papaya salad"},
+        {"kcal": 60, "c": 14, "p": 1, "f": 0, "ko": "코코넛 워터", "en": "Coconut water"}
+      ]
+    },
+    "LATAM": {
+      "analogy": [
+        {"kcal": 250, "ko": "타코", "en": "Tacos", "unitKo": "개", "unitEn": ""},
+        {"kcal": 600, "ko": "부리토", "en": "Burrito", "unitKo": "개", "unitEn": ""},
+        {"kcal": 300, "ko": "엠파나다", "en": "Empanada", "unitKo": "개", "unitEn": ""},
+        {"kcal": 350, "ko": "아레파", "en": "Arepa", "unitKo": "개", "unitEn": ""},
+        {"kcal": 500, "ko": "페이조아다", "en": "Feijoada", "unitKo": "그릇", "unitEn": " bowls"},
+        {"kcal": 400, "ko": "추라스코", "en": "Churrasco", "unitKo": "접시", "unitEn": " plates"}
+      ],
+      "exercises": [
+        {"perMin": 11, "ko": "달리기", "en": "Running"},
+        {"perMin": 12, "ko": "줄넘기", "en": "Jump rope"},
+        {"perMin": 9, "ko": "계단 오르기", "en": "Stairs"},
+        {"perMin": 8, "ko": "자전거", "en": "Cycling"}
+      ],
+      "diet": [
+        {"kcal": 250, "c": 18, "p": 26, "f": 7, "ko": "세비체", "en": "Ceviche"},
+        {"kcal": 320, "c": 8, "p": 38, "f": 14, "ko": "그릴드 치킨", "en": "Grilled chicken"},
+        {"kcal": 300, "c": 40, "p": 16, "f": 8, "ko": "검은콩 샐러드", "en": "Black bean salad"},
+        {"kcal": 280, "c": 48, "p": 6, "f": 8, "ko": "아사이 볼", "en": "Açaí bowl"},
+        {"kcal": 430, "c": 50, "p": 22, "f": 12, "ko": "부리토 볼", "en": "Burrito bowl"},
+        {"kcal": 320, "c": 44, "p": 12, "f": 10, "ko": "키노아 샐러드", "en": "Quinoa salad"}
+      ],
+      "night": [
+        {"kcal": 200, "c": 22, "p": 14, "f": 6, "ko": "그릭요거트", "en": "Greek yogurt"},
+        {"kcal": 150, "c": 1, "p": 13, "f": 10, "ko": "삶은 계란", "en": "Boiled eggs"},
+        {"kcal": 100, "c": 27, "p": 1, "f": 0, "ko": "바나나", "en": "A banana"},
+        {"kcal": 200, "c": 36, "p": 4, "f": 5, "ko": "아사이 볼", "en": "Açaí bowl"},
+        {"kcal": 180, "c": 30, "p": 12, "f": 2, "ko": "검은콩 수프", "en": "Black bean soup"},
+        {"kcal": 120, "c": 4, "p": 14, "f": 5, "ko": "코티지 치즈", "en": "Cottage cheese"}
       ]
     },
     "default": {
